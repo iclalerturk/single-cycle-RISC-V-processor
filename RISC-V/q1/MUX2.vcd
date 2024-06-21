@@ -1,0 +1,56 @@
+$date
+	Thu Apr 25 15:42:53 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module MUX2_tb $end
+$var wire 32 ! out [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 32 $ c [31:0] $end
+$var reg 2 % select [1:0] $end
+$scope module uut $end
+$var wire 32 & a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 32 ( c [31:0] $end
+$var wire 2 ) select [1:0] $end
+$var reg 32 * out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100010100001010110011 *
+b0 )
+b11000001010111000001110000011100 (
+b10100001101100101100001111010100 '
+b100010100001010110011 &
+b0 %
+b11000001010111000001110000011100 $
+b10100001101100101100001111010100 #
+b100010100001010110011 "
+b100010100001010110011 !
+$end
+#10
+b10100001101100101100001111010100 !
+b10100001101100101100001111010100 *
+b1 %
+b1 )
+#20
+b11000001010111000001110000011100 !
+b11000001010111000001110000011100 *
+b10 %
+b10 )
+#30
+b0 !
+b0 *
+b11 %
+b11 )
+#40

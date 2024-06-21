@@ -1,0 +1,93 @@
+$date
+	Tue Apr 30 01:19:17 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module controlUnit_tb $end
+$var wire 2 ! ResultSrc [1:0] $end
+$var wire 1 " RegWrite $end
+$var wire 1 # PCSrc $end
+$var wire 1 $ MemWrite $end
+$var wire 2 % ImmSrc [1:0] $end
+$var wire 1 & ALUSrc $end
+$var wire 3 ' ALUControl [2:0] $end
+$var reg 3 ( funct3 [2:0] $end
+$var reg 1 ) funct7_5 $end
+$var reg 7 * opcode [6:0] $end
+$var reg 1 + zero $end
+$scope module uut $end
+$var wire 1 # PCSrc $end
+$var wire 3 , funct3 [2:0] $end
+$var wire 1 ) funct7_5 $end
+$var wire 7 - opcode [6:0] $end
+$var wire 1 . temp $end
+$var wire 1 + zero $end
+$var wire 2 / ResultSrc [1:0] $end
+$var wire 1 " RegWrite $end
+$var wire 1 $ MemWrite $end
+$var wire 1 0 Jump $end
+$var wire 2 1 ImmSrc [1:0] $end
+$var wire 1 2 Branch $end
+$var wire 1 & ALUSrc $end
+$var wire 2 3 ALUOp [1:0] $end
+$var wire 3 4 ALUControl [2:0] $end
+$scope module ALUDecoder $end
+$var wire 3 5 funct3 [2:0] $end
+$var wire 1 ) funct7_5 $end
+$var wire 7 6 opcode_5 [6:0] $end
+$var wire 2 7 ALUOp [1:0] $end
+$var reg 3 8 ALUControl [2:0] $end
+$upscope $end
+$scope module mainDecoder $end
+$var wire 7 9 opcode [6:0] $end
+$var reg 2 : ALUOp [1:0] $end
+$var reg 1 & ALUSrc $end
+$var reg 1 2 Branch $end
+$var reg 2 ; ImmSrc [1:0] $end
+$var reg 1 0 Jump $end
+$var reg 1 $ MemWrite $end
+$var reg 1 " RegWrite $end
+$var reg 2 < ResultSrc [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 <
+bx ;
+b10 :
+b110011 9
+b0 8
+b10 7
+b110011 6
+b0 5
+b0 4
+b10 3
+02
+bx 1
+00
+b0 /
+0.
+b110011 -
+b0 ,
+0+
+b110011 *
+0)
+b0 (
+b0 '
+0&
+bx %
+0$
+0#
+1"
+b0 !
+$end
+#10
